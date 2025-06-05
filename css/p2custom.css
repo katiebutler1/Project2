@@ -17,13 +17,14 @@ h1{
     font-weight: 700;
 }
 
-h5,h7{
+h4,h5,h7{
 font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
 }
 
 header{
+    padding-top:12em;
     text-align: center;
 }
 
@@ -33,6 +34,8 @@ html{
 
 body{
   color: #fde63c;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 p.solid {border-style: solid;}
@@ -48,4 +51,61 @@ img {
   max-width: 25%;
   height: auto;
   object-fit: contain;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 5 4px 8px 0 rgba(209, 196, 10, 0.846);
+  outline:solid;
+  outline-offset:5px; 
+  transition: 0.3s;
+  display:flex;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(214, 228, 13, 0.846);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 5px 15px;
+}
+/*
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+*/
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+    .headerName {
+      font-size: 3rem;
+      letter-spacing: 0.2em;
+      font-weight: 700;
+    }
+
+    .top-left {
+      position: absolute;
+      top: -30px;
+      left: 248px;
+    }
+
+    .bottom-right {
+      position: absolute;
+      bottom: -30px;
+      right: 245px;
+    }
+
+    .row {
+  margin-bottom: 50px;
+}
+
+#intro{
+  margin-top:32em;
 }
