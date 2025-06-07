@@ -48,10 +48,10 @@ p.solid {border-style: solid;}
 }
 
 img {
-  max-width: 25%;
   height: auto;
   object-fit: contain;
 }
+
 
 .card {
   /* Add shadows to create the "card" effect */
@@ -103,9 +103,13 @@ img {
     }
 
     .row {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #intro{
   margin-top:32em;
+}
+
+#attr{
+  margin-top: 200px;
 }
