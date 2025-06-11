@@ -26,10 +26,11 @@ font-family: "JetBrains Mono", monospace;
 header{
     padding-top:12em;
     text-align: center;
+    color: black;
 }
 
 html{
-background-color: black;
+background-image: "img/back4.png";
 }
 
 body{
@@ -38,6 +39,11 @@ body{
   text-justify: inter-word;
   font-family: "JetBrains Mono", monospace;
 
+background-image: url('/img/back6.png'); /* Replace 'your-image.jpg' with the path to your image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Ensures the image covers the entire viewport while preserving aspect ratio */
+  background-position: center top; /* Centers the image within the viewport */
+  background-attachment: scroll;
 }
 
 p.solid {border-style: solid;}
@@ -109,7 +115,7 @@ img {
 }
 
 #intro{
-  margin-top:32em;
+  margin-top:45em;
 }
 
 #attr{
@@ -169,3 +175,5 @@ header {
 .row{
    margin-top:15em;
 }
+
+
