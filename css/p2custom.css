@@ -39,10 +39,10 @@ body{
   text-justify: inter-word;
   font-family: "JetBrains Mono", monospace;
 
-background-image: url('/img/back6.png'); /* Replace 'your-image.jpg' with the path to your image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-size: cover; /* Ensures the image covers the entire viewport while preserving aspect ratio */
-  background-position: center top; /* Centers the image within the viewport */
+background-image: url('/img/back13.png'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center top; 
   background-attachment: scroll;
 }
 
