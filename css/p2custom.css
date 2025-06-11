@@ -29,13 +29,16 @@ header{
 }
 
 html{
-  background-color: black;
+background-image: url("img/BG_all.png");
+background-color: black;
 }
 
 body{
   color: #fde63c;
   text-align: justify;
   text-justify: inter-word;
+  font-family: "JetBrains Mono", monospace;
+
 }
 
 p.solid {border-style: solid;}
@@ -112,4 +115,58 @@ img {
 
 #attr{
   margin-top: 200px;
+}
+
+.Car {
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+}
+
+@keyframes anim {
+    0% {left: -300px; opacity: 0;}
+    25% {opacity: 1;}
+    100% {left: 2000px; opacity: 0;}
+    
+}
+
+.Car {
+    
+    display: block;
+    opacity: 0;
+    position: relative;
+    top: 20px;
+    right: -300px;
+    animation-name: drive;
+    animation-delay: 5s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    
+}
+
+header {
+  animation-name: drive;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes drive {
+    0% {left: -300px; opacity: 0;}
+    25% {opacity: 1;}
+    100% {left: 2000px; opacity: 0;} 
+}
+
+.Announce{
+  text-align: center;
+  margin-top:25em;
+  margin-bottom: 32em;
+}
+
+#outro{
+  margin-top:25em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.row{
+   margin-top:15em;
 }
